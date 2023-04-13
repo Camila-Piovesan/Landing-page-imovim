@@ -1,0 +1,115 @@
+header {
+    position: absolute;
+    width: 277.54px;
+    height: 81.68px;
+    left: 90px;
+    top: 25px;
+    box-sizing: border-box;
+
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+
+    font-size: 20px;
+}
+
+ul {
+    display: inline-flex;
+    text-align: center;
+    padding-left: 10px;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+li {
+    padding-left: 28px;
+}
+
+nav ul li {
+    display: flex;
+    
+    list-style-type: none;
+    color:  white;
+}
+
+.Link {
+    text-decoration: none;
+    color: black;
+}
+
+#mockup {
+    position: absolute;
+    width: 678.5px;
+    height: 837.19px;
+    right: 0;
+
+}
+
+#marcador {
+    position: absolute;
+    width: 4px;
+    height: 140px;
+    left: 86px;
+    top: 205px;
+}
+
+.slogan {
+    position: absolute;
+    width: 471px;
+    height: 104px;
+    left: 105px;
+    top: 220px;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+button {
+    position: absolute;
+    width: 376px;
+    height: 104px;
+    left: 107px;
+    top: 390px;
+
+    background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
+    border-radius: 50px;
+    border-color:transparent;
+
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+button:hover {
+    background: linear-gradient(174.1deg, #FF7926 -29.75%, #D35C12 -29.73%, #7C0A8E 140.76%);
+}
+
+text {
+    color: black;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#qrcodeText {
+    position: absolute;
+    width: 256px;
+    height: 33px;
+    left: 170px;
+    top: 525px;
+}
+
+#qrCode {
+    position: absolute;
+    left: 13.26%;
+    top: 580px;
+    left: 190px;
+    bottom: 72.72%;
+}
+
+
+
