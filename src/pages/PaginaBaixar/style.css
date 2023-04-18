@@ -73,7 +73,7 @@ button {
     position: absolute;
     width: 376px;
     height: 104px;
-    left: 107px;
+    left: 86px;
     top: 390px;
 
     background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
@@ -99,7 +99,7 @@ text {
     position: absolute;
     width: 256px;
     height: 33px;
-    left: 170px;
+    left: 150px;
     top: 525px;
 }
 
@@ -107,9 +107,129 @@ text {
     position: absolute;
     left: 13.26%;
     top: 580px;
-    left: 190px;
+    left: 168px;
     bottom: 72.72%;
 }
 
+.box {
+    
+    width: 241px;
+    height: 242px;
+    left: 265px;
+    top: 892px;
+
+    background: #e0e0e0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+
+    text-align: center;
+}
+
+.boxContainer {
+    position: absolute;
+    width: 911px;
+    height: 242px;
+    left: 20%;
+    top: 870px;
+
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(3, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 100px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 5px 8px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 20px 10px;
+}
+
+#textBox {
+    font-size: 28px;
+}
+
+.icon {
+    padding-top: 40px;
+}
+
+#fundoGradiente {
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    top: 1013px;
+
+    background: linear-gradient(0deg, #F8670E -2.54%, #A312BB 65.28%, #A312BB 65.28%);
+
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(4, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 100px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 5px 8px;
+    
+    align-content: center;
+}
+
+#apresentaçãoDevs {
+    position: absolute;
+    width: 597px;
+    height: 104px;
+    left: 497px;
+    top: -80px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.fotoDevs {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 60px;
+    margin-bottom: 5px;
+}
 
 
+#textFundoGradiente {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    top: 1250px;
+
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(4, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 100px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 5px 8px;
+    
+    align-content: center;
+    text-align: center;
+}
+
+.textDevs {
+    color: white;
+    margin-top: 40px;
+}
+#nomeDevs {
+    width: 165px;
+    height: 34px;
+
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+
+    border-radius: 50px;
+    /*border-color: rgb(255, 255, 255);*/
+
+    padding: 4px 13px;
+    gap: 10px;
+
+}
