@@ -49,7 +49,7 @@ nav ul li {
 
 }
 
-#marcador {
+#marcadorSlogan {
     position: absolute;
     width: 4px;
     height: 140px;
@@ -157,7 +157,7 @@ text {
     height: 750px;
     top: 1013px;
 
-    background: linear-gradient(0deg, #F8670E -2.54%, #A312BB 65.28%, #A312BB 65.28%);
+    background: linear-gradient(0deg, #f8670e -2.54%, #A312BB 65.28%, #A312BB 65.28%);
 
     display: grid;
     /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
@@ -232,4 +232,88 @@ text {
     padding: 4px 13px;
     gap: 10px;
 
+}
+#textSobre {
+    position: absolute;
+    width: 556px;
+    height: 321px;
+    left: 110px;
+    top: 1860px;
+
+}
+
+#marcadorSobre {
+    position: absolute;
+    width: 4px;
+    height: 200px;
+    left: -18px;
+    top: -5px;
+
+    background: #A512BD;
+    border-radius: 8px;
+}
+
+#marcadorLink {
+    position: absolute;
+    width: 4px;
+    height: 70px;
+    left: -18px;
+    top: 240px;
+
+    background: #f8670e;
+    border-radius: 8px;
+}
+
+#textTecnologias {
+    position: absolute;
+    width: 602px;
+    height: 38px;
+    left: 820px;
+    top: 1860px;
+
+}
+
+.boxTecnologias {
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 140px;
+
+    position: absolute;
+    width: 615px;
+    height: 290px;
+    left: 820px;
+    top: 1900px;
+
+}
+
+.tecnologia {
+    background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
+    border-radius: 18px;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contato {
+    position: absolute;
+    width: 454px;
+    height: 196px;
+    left: 493px;
+    top: 2310px;
+    text-align: center;
+}
+
+#textTituloContato {
+    font-size: 40px;
+
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+  
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+    
 }
