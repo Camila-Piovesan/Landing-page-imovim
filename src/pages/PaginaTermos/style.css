@@ -1,0 +1,34 @@
+
+.textTermos {
+    position: absolute;
+    width: 512px;
+    height: 2832px;
+    left: 90px;
+    top: 230px;
+    text-align: justify;
+    line-height: 35px;
+    column-count:1;
+    column-gap: 160px;         
+}
+
+.textNumero {
+    color: #A512BD;
+    font-size: 36px;
+}
+
+.textTitulo {
+    color: #F8670E;
+    font-size: 32px;
+}
+
+.ulTermos {
+    margin-left: 25px;
+    display: block;
+    text-align: justify;
+}
+
+#ondaTermos {
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
