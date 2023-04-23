@@ -307,13 +307,5 @@ text {
 }
 
 #textTituloContato {
-    font-size: 40px;
-
-    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
-  
-    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
-    background-clip: text;
-    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
-
-    
+margin-top: 20px;
 }

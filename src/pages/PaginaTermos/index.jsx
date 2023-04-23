@@ -3,6 +3,7 @@ import style from './style.css';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import ondaTermos from '../../assets/ondaTermos.svg';
+import Footer from '../../components/Footer';
 
 function index() {
     return (

@@ -1,6 +1,7 @@
 import React from "react";
 import style from  './style.css';
 import {Link} from 'react-router-dom';
+import Footer from '../../components/Footer';
 import logo from '../../assets/logo.svg';
 import marcador from '../../assets/marcador.svg'
 import qrcode from '../../assets/qrcodeAleatorio.svg';
@@ -15,6 +16,7 @@ import mongoLogo from '../../assets/mongoLogo.svg';
 import socketioLogo from '../../assets/socketioLogo.svg';
 import figmaLogo from '../../assets/figmaLogo.svg';
 import githubLogo from '../../assets/githubLogo.svg';
+import gradientText from '../../assets/gratientText.svg';
 
 function index() {
     return (
@@ -121,11 +123,13 @@ function index() {
         </container>
 
         <container className="contato">
-            <text id="textTituloContato"><p>Entre em contato conosco!</p></text>
+            <img id="textTituloContato" src={gradientText}/>
             <text id="textFraseContato"><p>Quer nos mandar uma sugestão ou tirar alguma dúvida?</p>Mande um email para <br/></text>
             <text id="textEmail"><p>projeto.imovim@gmail.com</p></text>
         </container>
+        <Footer/>
         </>
+
 
     )
 }
